@@ -25,9 +25,9 @@
   --warning-lightness: 61%;
   --warning-hsl: var(--warning-hue), calc(var(--warning-saturation) * var(--saturation-factor)), var(--warning-lightness);
   --warning-text-color: hsl(0,0%,100%);
-  --reply-hue: var(--warning-hue);
-  --reply-saturation: var(--warning-saturation);
-  --reply-lightness: var(--warning-lightness);
+  --reply-hue: 44;
+  --reply-saturation: 71%;
+  --reply-lightness: 61%;
   --reply-hsl: var(--reply-hue), calc(var(--reply-saturation) * var(--saturation-factor)), var(--reply-lightness);
   --reply-opacity: 0.3;
   --reply-text-color: var(--warning-text-color);
