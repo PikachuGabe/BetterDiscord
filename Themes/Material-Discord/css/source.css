@@ -25,9 +25,9 @@
   --warning-lightness: 61%;
   --warning-hsl: var(--warning-hue), calc(var(--warning-saturation) * var(--saturation-factor)), var(--warning-lightness);
   --warning-text-color: hsl(0,0%,100%);
-  --reply-hue: var(--warning-hue);
-  --reply-saturation: var(--warning-saturation);
-  --reply-lightness: var(--warning-lightness);
+  --reply-hue: 224;
+  --reply-saturation: 71%;
+  --reply-lightness: 61%;
   --reply-hsl: var(--reply-hue), calc(var(--reply-saturation) * var(--saturation-factor)), var(--reply-lightness);
   --reply-opacity: 0.3;
   --reply-text-color: var(--warning-text-color);
@@ -10083,7 +10083,7 @@ div[role=radiogroup].group__344e6 {
   border-right-color: var(--message-color);
 }
 .wrapper_c19a55.ephemeral__5126c a, .wrapper_c19a55.replying__5126c a {
-  color: hsl(var(--accent-hsl));
+  color: hsl(var(--reply-hsl));
 }
 .wrapper_c19a55.ephemeral__5126c:before {
   display: none;
